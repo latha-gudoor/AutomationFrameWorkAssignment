@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Macys">
+<listeners>
+		<listener class-name="com.wbl.HelperPackage.LoggerListener" />
+	</listeners>
+<suite-files>
+ <suite-file path="build/testng-home.xml"></suite-file> 
+<suite-file path="build/testng-signIn.xml"></suite-file>
+<suite-file path="build/testng-acct.xml"></suite-file>  
+<suite-file path="build/testng-search.xml"></suite-file>
+
+</suite-files>
+  
+</suite> <!-- Suite -->
+
+
